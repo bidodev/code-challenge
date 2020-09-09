@@ -1,0 +1,15 @@
+.radio__list{
+    list-style: none;
+    width: 100%;
+    border: 1px solid green;
+
+    &__item {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+
+        span {
+            border: 1px solid red;
+        }
+    }
+}
