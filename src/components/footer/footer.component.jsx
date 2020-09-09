@@ -1,9 +1,10 @@
 import React from 'react'
+import './footer.component.styles.scss'
 
 function Footer({playing}) {
     return (
-      <div>
-        <h2>Playing Now: {playing} </h2>
+      <div className="footer">
+        {playing? <h2>Playing: {playing} </h2> : ''}
       </div>
     );
   }

@@ -4,8 +4,6 @@ import API_URL from "../../shared/constants";
 import RadioItems from "../radio-items/radio-items.component";
 
 const RadioList = ({handleClick}) => {
-
-
   //localState
   const [radios, setRadios] = useState([]);
 

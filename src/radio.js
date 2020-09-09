@@ -13,6 +13,7 @@ const Radio = () => {
 
   const [playingNow, setPlayingNow] = useState("");
 
+  //update the currently playing Radio
   const handleClick = (event) => {
     setPlayingNow(event.target.id);
   };
