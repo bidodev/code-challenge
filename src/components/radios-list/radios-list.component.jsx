@@ -1,13 +1,13 @@
 import React, { useEffect, useState} from "react";
 import axios from "axios";
 import API_URL from "../../shared/constants";
-
 import RadioItems from "../radio-items/radio-items.component";
 
-const RadioList = () => {
+const RadioList = ({handleClick}) => {
+
+
   //localState
   const [radios, setRadios] = useState([]);
-  const [playingNow, setPlayingNow] = useState([]);
 
   //componentDidMount
   useEffect(() => {
@@ -18,7 +18,7 @@ const RadioList = () => {
   return (
     <ul>
       {radios.map((el) => (
-        <RadioItems {...el} />
+        <RadioItems {...el} handleClick={handleClick} />
       ))}
     </ul>
   );

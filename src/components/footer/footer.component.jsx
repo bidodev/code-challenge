@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Footer() {
+function Footer({playing}) {
     return (
       <div>
-        <h2>Playing Now: </h2>
+        <h2>Playing Now: {playing} </h2>
       </div>
     );
   }

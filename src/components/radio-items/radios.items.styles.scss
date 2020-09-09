@@ -8,8 +8,9 @@
         display: flex;
         justify-content: space-between;
 
-        span {
-            border: 1px solid red;
+        &:hover {
+            cursor: pointer;
+            opacity: 0.8;
         }
     }
 }
