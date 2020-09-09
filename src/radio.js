@@ -11,12 +11,23 @@ import RadiosList from "./components/radios-list/radios-list.component";
 import Footer from "./components/footer/footer.component";
 
 const Radio = () => {
+  const [radioStatus, setRadioStatus] = useState(false);
+
+  const handleTurnOnOff = () => {
+    //toggle radio status
+    setRadioStatus(!radioStatus);
+  };
+
   return (
     <div className="radio">
       <RadiosProvider>
-        <Header />
-        <RadiosList />
-        <Footer />
+        <Header handleTurnOnOff={handleTurnOnOff} />
+        {radioStatus ? (
+          <>
+            <RadiosList />
+            <Footer />
+          </>
+        ) : null}
       </RadiosProvider>
     </div>
   );

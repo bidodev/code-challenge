@@ -1,20 +1,26 @@
 .header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #916b26;
-    color: #fafafa;
-    height: 10vh;
-    border-top-left-radius: 1.6rem;
-    border-top-right-radius: 1.6rem;
-    padding: 0 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #916b26;
+  color: #fafafa;
+  height: 10vh;
+  border-top-left-radius: 1.6rem;
+  border-top-right-radius: 1.6rem;
+  padding: 0 1rem;
 
+  h1 {
+    font-size: 1.6rem;
+  }
 
-    h1 {
-        font-size: 1.6rem;
+  svg {
+    font-size: 2rem;
+  }
+  svg:last-of-type {
+    transition: filter 0.2s ease-in-out;
+    &:hover {
+      cursor: pointer;
+      filter: invert(1);
     }
-
-    svg {
-        font-size: 2rem;
-    }
+  }
 }

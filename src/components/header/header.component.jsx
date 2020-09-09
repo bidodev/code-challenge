@@ -4,12 +4,14 @@ import {RadiosContext} from '../../Radios.context';
 
 import './header.component.styles.scss'
 
-function Header() {
+function Header({handleTurnOnOff}) {
+
+
     return (
       <div className="header">
         <FontAwesomeIcon icon="chevron-left" />
         <h1>Stations</h1>
-        <FontAwesomeIcon icon="power-off" />
+        <FontAwesomeIcon icon="power-off" onClick={handleTurnOnOff}/>
       </div>
     );
 }
