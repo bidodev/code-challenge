@@ -3,15 +3,18 @@ import "./radios.items.styles.scss";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-const RadioItems = ({ name, image, frequency, handleClick }) => {
+const RadioItems = ({ name, image, frequency, handleClick, playing }) => {
+    
   return (
     <ul className="radio__list">
       <li className="radio__list__item" onClick={handleClick}>
-        {name === "Radio 3" ? (
-          <div clasName="radio__list__item-active" id={name}>
+        {name === playing ? (
+          <div className="radio__list__item-active" id={name}>
+            <FontAwesomeIcon icon="minus" />
             <div className="radio__list__item-img">
               <img src={image} alt="name" />
             </div>
+            <FontAwesomeIcon icon="plus" />
           </div>
         ) : (
           <h1>

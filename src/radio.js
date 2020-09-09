@@ -21,7 +21,7 @@ const Radio = () => {
   return (
     <div className="radio">
       <Header />
-      <RadiosList handleClick={handleClick}/>
+      <RadiosList handleClick={handleClick} playing={playingNow}/>
       <Footer playing={playingNow}/>
     </div>
   );

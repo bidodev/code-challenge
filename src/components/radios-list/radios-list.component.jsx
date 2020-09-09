@@ -3,7 +3,7 @@ import axios from "axios";
 import API_URL from "../../shared/constants";
 import RadioItems from "../radio-items/radio-items.component";
 
-const RadioList = ({handleClick}) => {
+const RadioList = ({handleClick, playing}) => {
   //localState
   const [radios, setRadios] = useState([]);
 
@@ -16,7 +16,7 @@ const RadioList = ({handleClick}) => {
   return (
     <ul>
       {radios.map((el) => (
-        <RadioItems {...el} handleClick={handleClick} />
+        <RadioItems {...el} handleClick={handleClick} playing={playing} />
       ))}
     </ul>
   );
