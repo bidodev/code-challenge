@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/teclead-code-challenge/static/css/main.88d7f530.chunk.css",
+    "main.js": "/teclead-code-challenge/static/js/main.736341e1.chunk.js",
+    "main.js.map": "/teclead-code-challenge/static/js/main.736341e1.chunk.js.map",
+    "runtime-main.js": "/teclead-code-challenge/static/js/runtime-main.408d4b8a.js",
+    "runtime-main.js.map": "/teclead-code-challenge/static/js/runtime-main.408d4b8a.js.map",
+    "static/css/2.93b6c925.chunk.css": "/teclead-code-challenge/static/css/2.93b6c925.chunk.css",
+    "static/js/2.00ea585b.chunk.js": "/teclead-code-challenge/static/js/2.00ea585b.chunk.js",
+    "static/js/2.00ea585b.chunk.js.map": "/teclead-code-challenge/static/js/2.00ea585b.chunk.js.map",
+    "index.html": "/teclead-code-challenge/index.html",
+    "precache-manifest.dc84782beb799b610b99f392b13f05c1.js": "/teclead-code-challenge/precache-manifest.dc84782beb799b610b99f392b13f05c1.js",
+    "service-worker.js": "/teclead-code-challenge/service-worker.js",
+    "static/css/2.93b6c925.chunk.css.map": "/teclead-code-challenge/static/css/2.93b6c925.chunk.css.map",
+    "static/css/main.88d7f530.chunk.css.map": "/teclead-code-challenge/static/css/main.88d7f530.chunk.css.map",
+    "static/js/2.00ea585b.chunk.js.LICENSE.txt": "/teclead-code-challenge/static/js/2.00ea585b.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/teclead-code-challenge/static/media/nunito-sans-latin-900italic.708845e8.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.408d4b8a.js",
+    "static/css/2.93b6c925.chunk.css",
+    "static/js/2.00ea585b.chunk.js",
+    "static/css/main.88d7f530.chunk.css",
+    "static/js/main.736341e1.chunk.js"
+  ]
+}
