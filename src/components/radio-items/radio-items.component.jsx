@@ -7,9 +7,9 @@ const RadioItems = ({ name, image, frequency, handleClick, playing }) => {
     
   return (
     <ul className="radio__list">
-      <li className="radio__list__item" onClick={handleClick}>
+      <li className="radio__list__item" id={name} onClick={handleClick}>
         {name === playing ? (
-          <div className="radio__list__item-active" id={name}>
+          <div className="radio__list__item-active" >
             <FontAwesomeIcon icon="minus" />
             <div className="radio__list__item-img">
               <img src={image} alt="name" />
