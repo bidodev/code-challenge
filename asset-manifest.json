@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/code-challenge/static/css/main.88d7f530.chunk.css",
-    "main.js": "/code-challenge/static/js/main.736341e1.chunk.js",
-    "main.js.map": "/code-challenge/static/js/main.736341e1.chunk.js.map",
-    "runtime-main.js": "/code-challenge/static/js/runtime-main.01155dab.js",
-    "runtime-main.js.map": "/code-challenge/static/js/runtime-main.01155dab.js.map",
-    "static/css/2.87cdd7fb.chunk.css": "/code-challenge/static/css/2.87cdd7fb.chunk.css",
-    "static/js/2.00ea585b.chunk.js": "/code-challenge/static/js/2.00ea585b.chunk.js",
-    "static/js/2.00ea585b.chunk.js.map": "/code-challenge/static/js/2.00ea585b.chunk.js.map",
-    "index.html": "/code-challenge/index.html",
-    "precache-manifest.cd0cadd7c12556b26d2ca63eb25e1907.js": "/code-challenge/precache-manifest.cd0cadd7c12556b26d2ca63eb25e1907.js",
-    "service-worker.js": "/code-challenge/service-worker.js",
-    "static/css/2.87cdd7fb.chunk.css.map": "/code-challenge/static/css/2.87cdd7fb.chunk.css.map",
-    "static/css/main.88d7f530.chunk.css.map": "/code-challenge/static/css/main.88d7f530.chunk.css.map",
-    "static/js/2.00ea585b.chunk.js.LICENSE.txt": "/code-challenge/static/js/2.00ea585b.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/code-challenge/static/media/nunito-sans-latin-900italic.708845e8.woff"
+    "main.css": "/static/css/main.a64b6c45.chunk.css",
+    "main.js": "/static/js/main.3aa4b0e5.chunk.js",
+    "main.js.map": "/static/js/main.3aa4b0e5.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.7a759fc4.js",
+    "runtime-main.js.map": "/static/js/runtime-main.7a759fc4.js.map",
+    "static/css/2.8a005bbb.chunk.css": "/static/css/2.8a005bbb.chunk.css",
+    "static/js/2.00ea585b.chunk.js": "/static/js/2.00ea585b.chunk.js",
+    "static/js/2.00ea585b.chunk.js.map": "/static/js/2.00ea585b.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.5a33a477d1882ad2565e8ed594b92696.js": "/precache-manifest.5a33a477d1882ad2565e8ed594b92696.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.8a005bbb.chunk.css.map": "/static/css/2.8a005bbb.chunk.css.map",
+    "static/css/main.a64b6c45.chunk.css.map": "/static/css/main.a64b6c45.chunk.css.map",
+    "static/js/2.00ea585b.chunk.js.LICENSE.txt": "/static/js/2.00ea585b.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/static/media/nunito-sans-latin-900italic.708845e8.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.01155dab.js",
-    "static/css/2.87cdd7fb.chunk.css",
+    "static/js/runtime-main.7a759fc4.js",
+    "static/css/2.8a005bbb.chunk.css",
     "static/js/2.00ea585b.chunk.js",
-    "static/css/main.88d7f530.chunk.css",
-    "static/js/main.736341e1.chunk.js"
+    "static/css/main.a64b6c45.chunk.css",
+    "static/js/main.3aa4b0e5.chunk.js"
   ]
 }
