@@ -1,6 +1,6 @@
 [Task Description](./doc/task.pdf)
 
-# Built Using Context API
+### Alternative version: Built using Context API
 [Using ContextAPI](https://github.com/bidodev/code-challenge/tree/with-contextapi)
 
 ## Available Scripts
