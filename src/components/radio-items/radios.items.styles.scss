@@ -9,7 +9,7 @@
         height: auto;
         padding: 1rem 0;
         color: #fafafa;
-        font-size: 1;
+        font-size: 1rem;
         background-color: rgba(34, 35, 43, .8);
        
 
@@ -26,6 +26,8 @@
         }
 
         h1 {
+            //disavle pointer events for itens inside the LI
+            pointer-events: none;
             width: 60rem;
             display: flex;
             font-size: 1.6rem;
