@@ -1,7 +1,20 @@
 .footer {
-    height: 5vh;
+    height: 10vh;
     border-bottom-left-radius: 1.6rem;
     border-bottom-right-radius: 1.6rem;
-    background-color: rgb(150, 119, 61);
-    color: #fafafa;
+    background-color: #22232a;
+
+    &__isplaying{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        color: #916b26;
+
+        span:last-of-type{
+            font-size: 2rem;
+            color: #fafafa;
+        }
+    }
 }

@@ -1,6 +1,7 @@
 {
   "name": "radios",
   "version": "0.1.0",
+  "homage": "teclead-code-challenge",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.30",
@@ -16,13 +17,16 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.3",
-    "typeface-nunito-sans": "^0.0.72"
+    "typeface-nunito-sans": "^0.0.72",
+    "gh-pages": "^2.1.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
